@@ -11,6 +11,7 @@ import {
 } from 'react-icons/di'
 import {
   FaHtml5,
+  FaNpm,
   FaCss3Alt,
   FaBootstrap,
   FaReact,
@@ -41,13 +42,14 @@ const scriptList = [
   <FaCss3Alt />,
   <DiJavascript1 />,
   <FaBootstrap />,
-  <SiSass />,
   <DiJqueryLogo />,
+  <SiSass />,
   <SiTypescript />,
   <FaReact />,
   <SiRedux />,
   <SiNextDotJs />,
   <DiNodejs />,
+  <FaNpm />,
   <FaPhp />,
   <FaLaravel />,
   <FaWordpressSimple />,
@@ -162,7 +164,7 @@ const HeroSection = () => {
               <div>HCMC</div>
             </div>
             <div className={`hero__introduction__location__number${hidden ? ' --hidden' : ''}`}>
-              <div>10.8283158,106.6898914</div>
+              <div>10.797017819507223, 106.67054056898473</div>
             </div>
           </div>
         </div>

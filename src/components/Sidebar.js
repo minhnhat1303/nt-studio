@@ -3,7 +3,7 @@ import NavItem from './sidebar/NavItem'
 import {
   FaFacebookF,
   FaLinkedinIn,
-  FaGithub
+  FaSkype
 } from 'react-icons/fa'
 
 const waitingTime = 5000
@@ -87,14 +87,12 @@ const Sidebar = () => {
           <a
             href="tel:+84963597534"
             className={`${hidden ? ' --hidden' : ''}`}
-            rel="canonical"
           >
             Phone: +84963597534
           </a>
           <a
             href="mailto:trandangminhnhat.dev@gmail.com"
             className={`${hidden ? ' --hidden' : ''}`}
-            rel="canonical"
           >
             Mail: trandangminhnhat.dev@gmail.com
           </a>
@@ -108,18 +106,18 @@ const Sidebar = () => {
             <FaFacebookF />
           </a>
           <a
-            href="https://www.linkedin.com/in/nhat-tran-3392841b1/"
+            href="https://www.linkedin.com/in/nhattdm1303/"
             className={`${hidden ? ' --hidden' : ''}`}
             rel="canonical"
           >
             <FaLinkedinIn />
           </a>
           <a
-            href="https://github.com/darwintran"
+            href="https://join.skype.com/invite/xgfiVGfERRO2"
             className={`${hidden ? ' --hidden' : ''}`}
             rel="canonical"
           >
-            <FaGithub />
+            <FaSkype />
           </a>
         </div>
       </div>
