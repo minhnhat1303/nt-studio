@@ -1,0 +1,20 @@
+// abstracts
+@import 'abstracts/animation.scss';
+@import 'abstracts/fontFace.scss';
+@import 'abstracts/mixin.scss';
+
+
+// bases
+@import 'bases/base.scss';
+@import 'bases/index.scss';
+
+// components
+@import 'components/intro.scss';
+@import 'components/backgroundCover.scss';
+@import 'components/sidebar.scss';
+@import 'components/hero.scss';
+@import 'components/about.scss';
+@import 'components/project.scss';
+@import 'components/contact.scss';
+@import 'components/jellyBox.scss';
+@import 'components/footer.scss';

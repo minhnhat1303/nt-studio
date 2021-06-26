@@ -1,0 +1,146 @@
+.project-section {
+  padding: 7.5vw 1.77vw 0 0;
+
+  &__block {
+    width: 100%;
+    padding-left: 25%;
+
+    &__year {
+      margin: 2.1rem 0 5.5rem 0;
+      color: $dangerColor;
+      font-family: $hel_800;
+      font-size: 1.3rem;
+      line-height: 1.6rem;
+    }
+
+    &__list {
+      width: 100%;
+      margin-bottom: 14.4rem;
+      overflow: hidden;
+    }
+
+    &__item {
+      width: 100%;
+      border-bottom: 0.1rem solid $darkColor;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        height: 4rem;
+        margin-top: 1.09vw;
+        margin-bottom: 1.09vw;
+        margin-left: 0.16vw;
+        color: $textColor;
+        font-family: $hel_800;
+        font-size: 3.4rem;
+        line-height: 4rem;
+        overflow: hidden;
+
+        div {
+          height: 100%;
+          transition: transform 0.5s;
+        }
+      }
+
+      .badge {
+        color: $lightColor5;
+        font-size: 1.4rem;
+        line-height: 2rem;
+      }
+
+      img {
+        width: 48rem;
+        height: 27rem;
+        display: none;
+        mix-blend-mode: difference;
+        object-fit: contain;
+        object-position: top;
+        opacity: 0.75;
+        pointer-events: none;
+        position: fixed;
+        transform: translateX(-50%) translateY(-50%);
+      }
+
+      &:hover {
+        cursor: all-scroll;
+
+        a {
+          div {
+            transform: translateY(-100%);
+          }
+        }
+
+        img {
+          display: block;
+        }
+      }
+    }
+
+    &__funny-text {
+      width: 66.66%;
+      margin-top: calc((14.4rem - 4.64vw) * -1);
+      color: $darkColor1;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      text-align: center;
+
+      span:first-child {
+        padding-right: 0.2rem;
+      }
+    }
+  }
+}
+
+@include tablet-vertical {
+  .project-section {
+    &__block {
+      &__funny-text {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include mobile-vertical {
+  .project-section {
+    padding: 7.5vh 2.1rem 0 2.1rem;
+  
+    &__block {
+      padding-left: 0;
+
+      &__year {
+        margin: 1.05rem 0 2.75rem 0;
+      }
+
+      &__list {
+        margin-bottom: 7.2rem;
+      }
+  
+      &__item {
+        a {
+          height: 2.5rem;
+          margin-top: 1.09vh;
+          margin-bottom: 1.09vh;
+          margin-left: 0.16vh;
+          font-size: 2.1rem;
+          line-height: 2.5rem;
+        }
+
+        img {
+          width: 75vw;
+          height: 42vw;
+        }
+  
+        .badge {
+          font-size: 1rem;
+          line-height: 1.3rem;
+        }
+      }
+
+      &__funny-text {
+        margin-top: calc((7.2rem - 4.64vh) * -1);
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+.contact-section {
+  padding: 7.5vw 1.77vw 0 0;
+
+  &__block {
+    padding-left: 25%;
+
+    &__content {
+      width: 66.66%;
+      margin: 2.86vw 0 6.96vw 0;
+      font-size: 1.9rem;
+    }
+
+    &__jelly-box {
+      width: 66.66%;
+      margin-bottom: 4.64vw;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      &__text {
+        height: 1.5rem;
+        color: $whiteColor;
+        font-family: $hel_800;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 10;
+        transform: translate(-50%, -50%);
+
+        div {
+          transition: transform 0.5s;
+
+          span:nth-child(1) {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        .la-square-jelly-box > div:nth-child(1) {
+          -webkit-animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+          -moz-animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+          -o-animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+          animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+        }
+
+        .la-square-jelly-box > div:nth-child(2) {
+          -webkit-animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+          -moz-animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+          -o-animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+          animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+        }
+
+        .contact-section__block__jelly-box__text {
+          div {
+            transform: translateY(-100%);
+          }
+        }
+      }
+    }
+
+    &__funny-text {
+      width: 66.66%;
+      padding: 0 15%;
+      color: $darkColor1;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      text-align: center;
+
+      span:first-child {
+        padding-right: 0.2rem;
+      }
+    }
+  }
+}
+
+@include tablet-horizontal {
+  .contact-section {
+    &__block {
+      &__jelly-box {
+        .la-square-jelly-box > div:nth-child(1) {
+          -webkit-animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+          -moz-animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+          -o-animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+          animation: square-jelly-box-animate 0.6s -0.1s linear infinite;
+        }
+
+        .la-square-jelly-box > div:nth-child(2) {
+          -webkit-animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+          -moz-animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+          -o-animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+          animation: square-jelly-box-shadow 0.6s -0.1s linear infinite;
+        }
+      }
+    }
+  }
+}
+
+@include tablet-vertical {
+  .contact-section {
+    &__block {
+      padding-left: 25%;
+
+      &__content {
+        margin: 2.86vw 0 15rem 0;
+        font-size: 1.5rem;
+      }
+
+      &__jelly-box {
+        margin-bottom: 10rem;
+      }
+    }
+  }
+}
+
+@include mobile-horizontal {
+  .contact-section {
+    &__block {
+      &__content {
+        margin: 2.86vw 0 10rem 0;
+        font-size: 1.5rem;
+      }
+
+      &__jelly-box {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+}
+
+@include mobile-vertical {
+  .contact-section {
+    padding: 7.5vh 2.1rem 0 2.1rem;
+  
+    &__block {
+      padding-left: 0;
+  
+      &__content {
+        width: 100%;
+        margin: 2.86vh 0 13.92vh 0;
+        font-size: 1.3rem;
+      }
+  
+      &__jelly-box {
+        width: 100%;
+        margin-bottom: 4.64vh;
+  
+        &__text {
+          height: 1.5rem;
+          font-size: 1.3rem;
+          line-height: 1.5rem;
+        }
+      }
+  
+      &__funny-text {
+        width: 100%;
+        padding: 0 15%;
+        font-size: 1rem;
+        line-height: 1.2rem;
+  
+        span:first-child {
+          padding-right: 0.2rem;
+        }
+      }
+    }
+  }
+}

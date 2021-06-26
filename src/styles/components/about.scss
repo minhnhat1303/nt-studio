@@ -1,0 +1,156 @@
+.about-section {
+  padding: 7.5vw 1.77vw 0 0;
+
+  &__block {
+    width: 100%;
+    padding-left: 25%;
+
+    &__content {
+      width: 66.66%;
+      margin: 2.86vw 0 4.64vw 0;
+      font-size: 1.9rem;
+    }
+
+    &__sub {
+      &-content {
+        width: 33.33%;
+        margin-bottom: 4.64vw;
+        margin-left: 33.33%;
+        font-size: 1.3rem;
+        text-align: right;
+      }
+
+      &-title {
+        margin-bottom: 1.77vw;
+        font-family: $hel_800;
+        font-size: 1.3rem;
+        overflow: hidden;
+      }
+    }
+
+    &__list {
+      width: 66.66%;
+      overflow: hidden;
+    }
+
+    &__item {
+      width: 100%;
+      height: 5.4rem;
+      margin-bottom: 0.68vw;
+      border-bottom: 0.1rem solid $darkColor;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      span:nth-child(1) {
+        margin-bottom: 0.68vw;
+        margin-left: 0.16vw;
+        color: $dangerColor;
+        font-family: $hel_800;
+        font-size: 3.4rem;
+        line-height: 4rem;
+      }
+
+      span:nth-child(2) {
+        color: $lightColor5;
+        font-size: 1.4rem;
+        line-height: 2rem;
+      }
+    }
+
+    &__sub {
+      &-list {
+        margin: 4.64vw 0;
+      }
+
+      &-item {
+        font-family: $hel_800;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+      }
+    }
+
+    &__funny-text {
+      width: 66.66%;
+      color: $darkColor1;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      text-align: center;
+
+      span:first-child {
+        padding-right: 0.2rem;
+      }
+    }
+  }
+}
+
+@include tablet-vertical {
+  .about-section {
+    &__block {
+      &__content {
+        width: 100%;
+        margin: 2.86vw 0 4.64vw 0;
+        font-size: 1.5rem;
+      }
+  
+      &__sub {
+        &-content {
+          width: 22.9rem;
+          margin-left: 0;
+        }
+      }
+  
+      &__list {
+        width: 100%;
+      }
+  
+      &__funny-text {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include mobile-vertical {
+  .about-section {
+    &__block {
+      padding: 7.5vh 2.1rem 0 2.1rem;
+
+      &__content {
+        margin: 2.86vh 0 4.64vh 0;
+      }
+
+      &__sub {
+        &-content {
+          margin-bottom: 4.64vh;
+        }
+  
+        &-title {
+          margin-bottom: 1.77vh;
+        }
+      }
+  
+      &__item {
+        margin-bottom: 0.68vh;
+  
+        span:nth-child(1) {
+          margin-bottom: 0.68vh;
+          margin-left: 0.16vh;
+          font-size: 2.1rem;
+          line-height: 2.5rem;
+        }
+
+        span:nth-child(2) {
+          font-size: 1rem;
+          line-height: 1.3rem;
+        }
+      }
+  
+      &__sub {
+        &-list {
+          margin: 4.64vh 0;
+        }
+      }
+    }
+  }
+}
