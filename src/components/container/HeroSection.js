@@ -1,36 +1,39 @@
-import React, { useState, useRef, useEffect } from 'react'
-// import { AiOutlineFacebook } from 'react-icons/ai'
+import React, {
+  useState,
+  useRef,
+  useEffect
+} from 'react'
 import {
-  DiJavascript1,
-  DiJqueryLogo,
-  DiNodejs,
-  DiMysql,
-  DiMongodb,
-  DiPhotoshop,
-  DiIllustrator
-} from 'react-icons/di'
-import {
-  FaHtml5,
-  FaNpm,
-  FaCss3Alt,
-  FaBootstrap,
-  FaReact,
-  FaPhp,
-  FaLaravel,
-  FaGithub,
-  FaBitbucket,
-  FaWordpressSimple,
-  FaWindows,
   FaApple,
+  FaAws,
+  FaBitbucket,
+  FaBootstrap,
+  FaCss3Alt,
+  FaFigma,
+  FaGithub,
   FaGitlab,
+  FaHtml5,
+  FaLaravel,
+  FaNodeJs,
+  FaNpm,
+  FaPhp,
+  FaReact,
+  FaSass,
+  FaWindows,
+  FaWordpress,
+  FaYarn,
 } from 'react-icons/fa'
-import { FiFigma } from 'react-icons/fi'
-import { 
+import {
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobexd,
+  SiJavascript,
+  SiJquery,
+  SiMongodb,
+  SiMysql,
   SiNextDotJs,
   SiRedux,
-  SiSass, 
   SiTypescript,
-  SiAdobexd,
 } from 'react-icons/si'
 
 const waitingTime = 5000
@@ -40,30 +43,32 @@ const titleList = ["I'M", 'NHAT', 'TRAN']
 const scriptList = [
   <FaHtml5 />,
   <FaCss3Alt />,
-  <DiJavascript1 />,
+  <SiJavascript />,
   <FaBootstrap />,
-  <DiJqueryLogo />,
-  <SiSass />,
+  <SiJquery />,
+  <FaSass />,
   <SiTypescript />,
   <FaReact />,
   <SiRedux />,
   <SiNextDotJs />,
-  <DiNodejs />,
-  <FaNpm />,
+  <FaNodeJs />,
   <FaPhp />,
   <FaLaravel />,
-  <FaWordpressSimple />,
-  <DiMysql />,
-  <DiMongodb />,
+  <FaWordpress />,
+  <SiMysql />,
+  <SiMongodb />,
+  <FaAws />,
+  <FaNpm />,
+  <FaYarn />,
   <FaGithub />,
   <FaGitlab />,
   <FaBitbucket />,
   <FaWindows />,
   <FaApple />,
-  <DiPhotoshop />,
-  <DiIllustrator />,
+  <SiAdobephotoshop />,
+  <SiAdobeillustrator />,
   <SiAdobexd />,
-  <FiFigma />,
+  <FaFigma />,
 ]
 
 const TitleItem = props => {
