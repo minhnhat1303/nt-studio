@@ -274,7 +274,7 @@
   .hero {
     &-section {
       height: 90vh;
-      margin-top: 10vh;
+      margin-top: 6.4rem;
     }
 
     &__block {
@@ -344,16 +344,16 @@
 @include mobile-horizontal {
   .hero {
     &-section {
-      height: 125vh;
+      height: 600px;
     }
 
     &__block {
       &--top {
-        height: 50%;
+        height: 40%;
       }
 
       &--bottom {
-        height: 50%;
+        height: 60%;
       }
     }
 
@@ -387,16 +387,16 @@
 @include mobile-vertical {
   .hero {
     &-section {
-      height: 90vh;
+      height: calc(100vh - 6.4rem);
     }
 
     &__block {
       &--top {
-        height: 55%;
+        height: 50%;
       }
 
       &--bottom {
-        height: 45%;
+        height: 50%;
       }
     }
 
@@ -418,7 +418,13 @@
       }
     }
 
+    &__call-me {
+      height: 12.8rem;
+    }
+
     &__introduction {
+      height: calc(100% - 12.8rem);
+
       &__text {
         height: 100%;
 
