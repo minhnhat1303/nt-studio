@@ -106,7 +106,7 @@ const Sidebar = () => {
             <FaFacebookF />
           </a>
           <a
-            href="https://www.linkedin.com/in/nhattdm1303/"
+            href="https://www.linkedin.com/in/nhattdmdev/"
             className={`${hidden ? ' --hidden' : ''}`}
             rel="canonical"
           >
