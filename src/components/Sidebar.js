@@ -99,7 +99,7 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__copyright__social-links">
           <a
-            href="https://www.facebook.com/nhattdm1303/"
+            href="https://www.facebook.com/nhattdmdev//"
             className={`${hidden ? ' --hidden' : ''}`}
             rel="canonical"
           >
