@@ -4,6 +4,7 @@ import React, {
   useEffect
 } from 'react'
 import {
+  FaAngular,
   FaApple,
   FaAws,
   FaBitbucket,
@@ -19,6 +20,7 @@ import {
   FaPhp,
   FaReact,
   FaSass,
+  FaVuejs,
   FaWindows,
   FaWordpress,
   FaYarn,
@@ -32,6 +34,7 @@ import {
   SiMongodb,
   SiMysql,
   SiNextDotJs,
+  SiNuxtDotJs,
   SiRedux,
   SiTypescript,
 } from 'react-icons/si'
@@ -48,9 +51,12 @@ const scriptList = [
   <SiJquery />,
   <FaSass />,
   <SiTypescript />,
+  <FaAngular />,
   <FaReact />,
   <SiRedux />,
   <SiNextDotJs />,
+  <FaVuejs />,
+  <SiNuxtDotJs />,
   <FaNodeJs />,
   <FaPhp />,
   <FaLaravel />,
