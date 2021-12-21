@@ -3,16 +3,60 @@
     "year": "2021",
     "data": [
       {
+        "id": "15",
+        "name": "Achiever Vocab",
+        "image": "/images/achiever-vocab.png",
+        "url": "https://achievers.eduhome.com.vn/",
+        "tech": "Nextjs"
+      },
+      {
+        "id": "14",
+        "name": "Test Bank",
+        "image": "/images/test-bank.png",
+        "url": "https://testbank.com.vn/",
+        "tech": "Nextjs + Nodejs"
+      },
+      {
+        "id": "13",
+        "name": "Pictionary",
+        "image": "/images/pictionary.png",
+        "url": "https://pictionary.eduhome.com.vn/",
+        "tech": "Nextjs"
+      },
+      {
+        "id": "12",
+        "name": "E-catalog",
+        "image": "/images/e-catalog.png",
+        "url": "https://stk.eduhome.com.vn/",
+        "tech": "Reacts"
+      },
+      {
+        "id": "11",
+        "name": "EVLD",
+        "image": "/images/evld.png",
+        "url": "https://evld.eduhome.com.vn/",
+        "tech": "Nextjs"
+      },
+      {
+        "id": "10",
+        "name": "Practice Test",
+        "image": "/images/practice-test.png",
+        "url": "https://practicetest.eduhome.com.vn/",
+        "tech": "Nextjs"
+      },
+      {
         "id": "09",
         "name": "School Dictionary",
         "image": "/images/school-dictionary.jpg",
-        "url": "https://school-dictionary-5a84f.web.app/"
+        "url": "https://school-dictionary-5a84f.web.app/",
+        "tech": "Nextjs"
       },
       {
         "id": "08",
         "name": "DTP Mira",
         "image": "/images/dtp-mira.jpg",
-        "url": "https://dtpmira.com/"
+        "url": "https://dtpmira.com/",
+        "tech": "Nextjs"
       }
     ]
   },
@@ -23,25 +67,29 @@
         "id": "07",
         "name": "My Table Ware",
         "image": "/images/my-table-ware.jpg",
-        "url": "https://mtw-mindinger.herokuapp.com/"
+        "url": "https://mtw-mindinger.herokuapp.com/",
+        "tech": "Reactjs"
       },
       {
         "id": "06",
         "name": "Canidé",
         "image": "/images/canide.jpg",
-        "url": "https://ca-mindinger.herokuapp.com/"
+        "url": "https://ca-mindinger.herokuapp.com/",
+        "tech": "Reactjs"
       },
       {
         "id": "05",
         "name": "Katia Smet",
         "image": "/images/katia-smet.jpg",
-        "url": "https://ks-mindinger.herokuapp.com/"
+        "url": "https://ks-mindinger.herokuapp.com/",
+        "tech": "Reactjs"
       },
       {
         "id": "04",
         "name": "Nt. Studio",
         "image": "/images/nt-studio.jpg",
-        "url": "https://ntstudio.herokuapp.com/"
+        "url": "https://ntstudio.herokuapp.com/",
+        "tech": "Reactjs"
       }
     ]
   },
@@ -52,19 +100,22 @@
         "id": "03",
         "name": "CS Design",
         "image": "/images/cs-design.jpg",
-        "url": "https://csdesign.vn/"
+        "url": "https://csdesign.vn/",
+        "tech": "Reactjs + Laravel"
       },
       {
         "id": "02",
         "name": "APC Lab",
         "image": "/images/lab-chemistry.jpg",
-        "url": "https://lab.spyets.com/"
+        "url": "https://lab.spyets.com/",
+        "tech": "Laravel"
       },
       {
         "id": "01",
         "name": "Thegioitho",
         "image": "/images/the-gioi-tho.jpg",
-        "url": "https://thegioitho.com/"
+        "url": "https://thegioitho.com/",
+        "tech": "Wordpress"
       }
     ]
   }
