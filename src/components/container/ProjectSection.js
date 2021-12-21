@@ -20,7 +20,7 @@ const ProJectItem = props => {
           <div>{props.data.name}</div>
           <div>{props.data.name}</div>
         </a>
-        <span className="badge">{props.data.id}</span>
+        <span className="badge">{props.data.tech}</span>
         <img
           src={props.data.image}
           alt={props.data.name}
